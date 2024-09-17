@@ -42,8 +42,8 @@ st.markdown("""
 # Sidebar for additional information or options
 st.sidebar.header("About")
 st.sidebar.info("""
-    This application uses a Simple RNN model to analyze the sentiment of movie reviews from the IMDB dataset.
-    - **Model**: Simple RNN
+    This application uses a Bi-directional GRU RNN model to analyze the sentiment of movie reviews from the IMDB dataset.
+    - **Model**: Bi-Directional GRU RNN
     - **Dataset**: IMDB Reviews
     - **Usage**: Enter a review and get sentiment analysis.
 """)
